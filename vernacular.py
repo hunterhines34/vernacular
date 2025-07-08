@@ -3002,7 +3002,7 @@ Script files (.vern) support:
     
     parser.add_argument('script', nargs='?', help='Vernacular script file to execute (.vern)')
     parser.add_argument('-v', '--verbose', action='store_true', help='Enable verbose output')
-    parser.add_argument('--version', action='version', version='Vernacular 2.0 - Enhanced Natural Language Programming')
+    parser.add_argument('--version', action='version', version='Vernacular 3.0 - Python-Style Block Structure Programming')
     
     args = parser.parse_args()
     
