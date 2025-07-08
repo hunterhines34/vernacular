@@ -1,0 +1,40 @@
+# Hello World Example - Vernacular Programming Language
+# This is a simple script demonstrating basic features
+
+# Print a greeting
+print "Hello, World!"
+
+# Create some variables
+set name to "Alice"
+set age to 25
+set pi to 3.14159
+
+# Print variable values
+print "My name is"
+print name
+print "I am"
+print age
+print "years old"
+
+# Do some math
+add 10 and 5
+multiply 7 and 6
+calculate the square root of 16
+
+# Create and work with a list
+create list numbers with 1, 2, 3, 4, 5
+show list numbers
+add 6 to list numbers
+show list numbers
+
+# Loop example
+repeat 3 times: print "Looping!"
+
+# Conditional example
+if age is greater than 18 then print "Adult"
+
+# Function example
+define function greet as print "Hello from function!"
+call function greet
+
+print "Script completed successfully!"

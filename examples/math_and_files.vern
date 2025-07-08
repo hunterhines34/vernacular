@@ -1,0 +1,61 @@
+# Mathematical Computations and File Operations
+# Demonstrates advanced math functions and file I/O
+
+print "=== Mathematical Computations ==="
+
+# Basic arithmetic with variables
+set x to 10
+set y to 5
+set result to 0
+
+print "Starting calculations..."
+
+# Basic operations
+add x and y
+subtract y from x  
+multiply x and y
+divide x by y
+
+# Advanced math functions
+calculate the sine of 45
+calculate the cosine of 60
+calculate the tangent of 30
+calculate the square root of 144
+calculate the natural log of 2.718
+raise 2 to the power of 8
+calculate the factorial of 5
+
+# Working with decimals
+set price to 19.99
+set tax_rate to 0.08
+multiply price and tax_rate
+
+# Statistical operations
+create list scores with 85, 92, 78, 95, 88, 76, 89
+find the maximum of scores
+find the minimum of scores  
+calculate the average of scores
+
+print "=== File Operations ==="
+
+# Save data to different formats
+save to file "results.txt"
+save to csv "data.csv"
+save variables to results.xml
+
+# Create a simple data file
+set message to "Results from vernacular script"
+save to file "output.txt"
+
+print "=== Loop and Conditional Examples ==="
+
+# Complex loop with conditions
+create list items with 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+
+print "Processing numbers 1-10:"
+for each item in list items do if item is greater than 5 then print item
+
+# Counting loop
+count from 1 to 5 and print counter
+
+print "Mathematical computations completed!"

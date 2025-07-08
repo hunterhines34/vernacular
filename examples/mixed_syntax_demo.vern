@@ -1,0 +1,58 @@
+# Mixed Syntax Demo - Single-line and Block Structure Together
+# This shows backward compatibility and new features working together
+
+print "=== Mixed Syntax Demo ==="
+
+# Single-line commands (original style)
+set name to "Alice"
+set age to 30
+add 10 and 5
+print "Single-line commands work as before"
+
+# Block structure (new style)
+if age is greater than 25:
+    print "You are in the adult category"
+    print name
+    print "is over 25 years old"
+
+# Single-line conditional (original style)
+if name equals "Alice" then print "Name matches Alice"
+
+# Block structure function
+define function calculate_area:
+    set length to 10
+    set width to 5
+    multiply length and width
+    print "Area calculation complete"
+
+# Single-line function (original style)
+define function simple_greeting as print "Hello from single-line function"
+
+# Call both functions
+call function calculate_area
+call function simple_greeting
+
+# Mixed loop styles
+print "=== Mixed Loop Demo ==="
+
+# Single-line loop (original)
+repeat 2 times: print "Single-line loop iteration"
+
+# Block structure loop (new)
+repeat 2 times:
+    print "Block structure loop"
+    print "Multiple commands per iteration"
+
+# Single-line list processing
+create list numbers with 1, 2, 3
+for each item in list numbers do print item
+
+# Block structure list processing
+create list colors with red, green, blue
+for each item in list colors:
+    print "Processing color:"
+    print item
+    print "Color processed"
+
+print "=== Mixed Syntax Demo Complete ==="
+print "Both styles work perfectly together!"

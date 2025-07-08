@@ -1,0 +1,59 @@
+# Vernacular 3.0 - Block Structure Demo
+# This demonstrates the new Python-style indentation support
+
+print "=== Block Structure Demo ==="
+
+# Simple conditional block
+set age to 25
+if age is greater than 18:
+    print "You are an adult"
+    print "You can vote"
+    print "You have full rights"
+
+print "Age check complete"
+
+# Function definition with block structure
+define function greet_user:
+    print "Hello there!"
+    print "Welcome to Vernacular 3.0"
+    print "This is a block-structured function"
+
+# Call the function
+call function greet_user
+
+# Loop with block structure
+print "=== Loop Demo ==="
+repeat 3 times:
+    print "This is iteration number:"
+    print "Loop body can contain multiple commands"
+    print "Each command is properly indented"
+
+print "Loop complete"
+
+# List processing with blocks
+create list items with apple, banana, cherry
+print "Processing list items:"
+
+for each item in list items:
+    print "Processing item:"
+    print item
+    print "Item processed successfully"
+
+print "All items processed"
+
+# Nested blocks example
+print "=== Nested Blocks Demo ==="
+set score to 95
+
+if score is greater than 90:
+    print "Excellent performance!"
+    
+    if score is greater than 95:
+        print "Perfect score category"
+        print "You deserve special recognition"
+    
+    print "You qualify for honors"
+
+print "Score evaluation complete"
+
+print "=== Demo Complete ==="

@@ -1,0 +1,44 @@
+# Database Demo - Advanced Vernacular Script
+# Demonstrates database operations and data processing
+
+print "=== Database Operations Demo ==="
+
+# Create and connect to database
+create database "employee_db"
+
+# Create tables
+create table employees with columns id integer, name text, age integer, salary real
+create table departments with columns id integer, name text, manager text
+
+# Insert employee data
+insert into table employees values 1, "Alice Johnson", 28, 75000.50
+insert into table employees values 2, "Bob Smith", 32, 82000.00
+insert into table employees values 3, "Carol Davis", 26, 68000.75
+
+# Insert department data  
+insert into table departments values 1, "Engineering", "Alice Johnson"
+insert into table departments values 2, "Marketing", "Bob Smith"
+
+# Query data
+print "All employees:"
+select all from table employees
+
+print "Employee names and salaries:"
+select name, salary from table employees
+
+print "All departments:"
+select all from table departments
+
+# Update data
+update table employees set salary = 77000.00 where name = "Alice Johnson"
+print "After salary update:"
+select name, salary from table employees
+
+# List tables and describe structure
+list tables
+describe table employees
+
+# Clean up
+close database
+
+print "Database demo completed!"
